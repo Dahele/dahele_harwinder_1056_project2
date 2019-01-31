@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*css document*/
+
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+body, div, h2, p{
+	width: 960px;
+	font-family: 'Cuprum', sans-serif;
+	font-size: 17px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.mainBanner h2{
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 350px;
+	font-size: 50px;
+}
+
+.mainBanner h2:hover{
+	color: red;
+}
+
+.promoText{
+	text-align: left;
+	color: black;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.promoText h2{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.heading{
+	font-size:25px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+#promoImgTxt p{
+	display: flex;
+}
+
+.firstTraa img{
+	float: left;
+}
+.firstTraa p{
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.secondTraa img{
+	float: left;
+}
+
+.secondTraa p{
+	width: 250px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.promoImg1{
+	margin-left: 300px;
+}
+
+.promoParagraph{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#footerImgtxt p{
+	width: 550px;
+	margin-top: 70px;
+	float: right;
+}
+
+.promoText1{
+	text-align: right;
+}
